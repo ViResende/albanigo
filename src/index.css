@@ -1,0 +1,39 @@
+/* Tailwind directives MUST be at the top */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Brand palette */
+:root {
+  --cream: #FFF5E6;
+  --teal: #3FB8AF;
+  --splash: #D94A4A;
+  --progress: #E63946;
+}
+
+/* Background helper */
+.bg-cream { background-color: var(--cream); }
+
+/* 3D flip helpers for Flashcards */
+.card3d { perspective: 1000px; }
+.card3d-inner {
+  position: relative;
+  height: 100%;              /* <-- important so faces fill the card height */
+  transform-style: preserve-3d;
+  transition: transform .55s;
+}
+.card3d.is-flipped .card3d-inner { transform: rotateY(180deg); }
+
+.card3d-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;        /* keep text centered */
+  backface-visibility: hidden;
+  padding: 2.5rem;           /* prevents text touching edges */
+}
+.card3d-face.back { transform: rotateY(180deg); }
+
