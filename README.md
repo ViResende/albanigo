@@ -1,12 +1,24 @@
-# React + Vite
+# AlbaniGo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AlbaniGo is a React + Vite application for learning Albanian vocabulary with flashcards, lessons, teacher, quizzes, and progress tracking.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Vocabulary practice with flashcards
+- Quizzes (coming soon)
+- User progress tracking
+- Clean and responsive UI built with TailwindCSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [React Router](https://reactrouter.com/)
+- [TailwindCSS](https://tailwindcss.com/)
 
-## Expanding the ESLint configuration
+## 📦 Installation
+Clone the repository and install dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/ViResende/albanigo.git
+cd albanigo
+npm install
+npm run dev
