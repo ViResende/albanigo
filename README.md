@@ -1,24 +1,23 @@
-# AlbaniGo
+# 🌍 AlbaniGo
 
-AlbaniGo is a React + Vite application for learning Albanian vocabulary with flashcards, lessons, teacher, quizzes, and progress tracking.
+Learn Albanian the fun way! AlbaniGo is an interactive web app that helps users practice vocabulary, take lessons, and track progress.  
 
-## 🚀 Features
-- Vocabulary practice with flashcards
-- Quizzes (coming soon)
-- User progress tracking
-- Clean and responsive UI built with TailwindCSS
+Built with React + Vite, styled with TailwindCSS, and deployed on Vercel.
 
-## 🛠️ Tech Stack
-- [React](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- [React Router](https://reactrouter.com/)
-- [TailwindCSS](https://tailwindcss.com/)
+---
 
-## 📦 Installation
-Clone the repository and install dependencies:
+## ✨ What you can do
+- 🃏 Practice vocabulary with flashcards  
+- 📚 Explore lessons with different levels  
+- 👩‍🏫 Teacher section for guided practice  
+- 📝 Quizzes (coming soon!)  
+- 📊 Track your learning progress  
 
-```bash
-git clone https://github.com/ViResende/albanigo.git
-cd albanigo
-npm install
-npm run dev
+---
+
+👉 Live Demo: [https://albanigo.vercel.app]
+
+---
+
+## ⚡ Tech
+React • Vite • React Router • TailwindCSS • Vercel
